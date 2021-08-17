@@ -42,7 +42,7 @@ namespace Lesson3ConsoleApp
                 int min = Math.Min(x,y);
                 Console.WriteLine($"{min}");
             }
-
+            
             // Третье ДЗ
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
@@ -50,7 +50,7 @@ namespace Lesson3ConsoleApp
             int max = Math.Max(a, Math.Max(b, c));
             int min = Math.Min(a, Math.Min(b, c));
             int mid = a + b + c - max - min;
-            Console.WriteLine($"{min} {mid} {max}");
+            Console.WriteLine($"{max} {mid} {min}");
             
         }
     }
